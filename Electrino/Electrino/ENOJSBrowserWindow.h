@@ -12,6 +12,7 @@
 #import <JavaScriptCore/JavaScriptCore.h>
 #import "ENOBrowserWindowController.h"
 
+@class ENOJSWebContents;
 
 @protocol ENOJSBrowserWindowExports <JSExport>
 
@@ -34,11 +35,16 @@ JSExportAs(on,
 - (void)on:(NSString *)event withCallback:(JSValue *)cb
 );
 
+
+@property (nonatomic, strong) ENOJSWebContents* webContents;
+
 @end
 
 
 @interface ENOJSBrowserWindow : NSObject <ENOJSBrowserWindowExports>
 
 @property (nonatomic, strong) ENOBrowserWindowController *windowController;
+
+
 
 @end

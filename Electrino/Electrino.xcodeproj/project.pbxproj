@@ -46,6 +46,8 @@
 		DE5C66E12041C99B009BD1D2 /* index.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AA9DBC81EBA0BDD00EF7CC9 /* index.html */; };
 		DE5C66E22041C99B009BD1D2 /* main.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AA9DBC91EBA0BDD00EF7CC9 /* main.js */; };
 		DE5C66E32041C99B009BD1D2 /* package.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AA9DBCA1EBA0BDD00EF7CC9 /* package.json */; };
+		DE5C66E62041D2F1009BD1D2 /* ENOJSWebContents.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C66E52041D2F1009BD1D2 /* ENOJSWebContents.m */; };
+		DE5C66E72041D2F1009BD1D2 /* ENOJSWebContents.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C66E52041D2F1009BD1D2 /* ENOJSWebContents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -116,6 +118,8 @@
 		5AA9DBF11EBA7C0700EF7CC9 /* ENOBrowserWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ENOBrowserWindowController.xib; sourceTree = "<group>"; };
 		DE5C66D32041C91C009BD1D2 /* ElectrinoTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectrinoTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5C66D42041C91C009BD1D2 /* ElectrinoTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ElectrinoTest copy-Info.plist"; path = "/Users/awh/Development/Experiments2-1/electrino/Electrino/ElectrinoTest copy-Info.plist"; sourceTree = "<absolute>"; };
+		DE5C66E42041D2F1009BD1D2 /* ENOJSWebContents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENOJSWebContents.h; sourceTree = "<group>"; };
+		DE5C66E52041D2F1009BD1D2 /* ENOJSWebContents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENOJSWebContents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +217,8 @@
 				5AA9DBE31EBA4F9B00EF7CC9 /* ENOJSUrl.m */,
 				5AA9DBE51EBA502000EF7CC9 /* ENOJSBrowserWindow.h */,
 				5AA9DBE61EBA502000EF7CC9 /* ENOJSBrowserWindow.m */,
+				DE5C66E42041D2F1009BD1D2 /* ENOJSWebContents.h */,
+				DE5C66E52041D2F1009BD1D2 /* ENOJSWebContents.m */,
 				5A3C033D1ECCDDFB00643964 /* ENOJSTray.h */,
 				5A3C033E1ECCDDFB00643964 /* ENOJSTray.m */,
 				5A3C03401ECCDE0400643964 /* ENOJSNativeImage.h */,
@@ -332,6 +338,7 @@
 			files = (
 				5AA9DBDE1EBA4F7B00EF7CC9 /* ENOJSPath.m in Sources */,
 				5AA9DBB61EB9F58B00EF7CC9 /* main.m in Sources */,
+				DE5C66E62041D2F1009BD1D2 /* ENOJSWebContents.m in Sources */,
 				5AA9DBE71EBA502000EF7CC9 /* ENOJSBrowserWindow.m in Sources */,
 				5AA9DBED1EBA55B700EF7CC9 /* ENOJSProcess.m in Sources */,
 				5AA9DBEA1EBA502D00EF7CC9 /* ENOJSApp.m in Sources */,
@@ -352,6 +359,7 @@
 			files = (
 				DE5C66B92041C91C009BD1D2 /* ENOJSPath.m in Sources */,
 				DE5C66BA2041C91C009BD1D2 /* main.m in Sources */,
+				DE5C66E72041D2F1009BD1D2 /* ENOJSWebContents.m in Sources */,
 				DE5C66BB2041C91C009BD1D2 /* ENOJSBrowserWindow.m in Sources */,
 				DE5C66BC2041C91C009BD1D2 /* ENOJSProcess.m in Sources */,
 				DE5C66BD2041C91C009BD1D2 /* ENOJSApp.m in Sources */,

@@ -10,7 +10,7 @@
 
 #import "ENOJSBrowserWindow.h"
 #import "ENOBrowserWindowController.h"
-
+#import "ENOJSWebContents.h"
 
 @interface ENOJSBrowserWindow ()
 
@@ -20,6 +20,7 @@
 
 
 @implementation ENOJSBrowserWindow
+@synthesize webContents;
 
 - (instancetype)initWithOptions:(NSDictionary *)opts
 {
@@ -28,6 +29,8 @@
     //NSLog(@"%s, %@", __func__, opts);
 
     self.eventCallbacks = [NSMutableDictionary dictionary];
+    
+    self.webContents = [[ENOJSWebContents alloc] init];
 
     id val;
     BOOL show = YES;
@@ -61,6 +64,14 @@
         [self show];
     
     return self;
+}
+
+- (void)dealloc
+{
+    
+    self.webContents = nil;
+    self.windowController = nil;
+    
 }
 
 - (void)loadURL:(NSString *)urlStr
@@ -134,6 +145,7 @@
              @"height": @(r.size.height),
              };
 }
+
 
 
 @end
