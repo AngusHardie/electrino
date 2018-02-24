@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A3C03391ECCDC9E00643964 /* index.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A3C03311ECCDC9200643964 /* index.html */; };
-		5A3C033A1ECCDCA100643964 /* index.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A3C03321ECCDC9200643964 /* index.js */; };
-		5A3C033B1ECCDCA400643964 /* main.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A3C03331ECCDC9200643964 /* main.js */; };
-		5A3C033C1ECCDCA600643964 /* package.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A3C03341ECCDC9200643964 /* package.json */; };
 		5A3C033F1ECCDDFB00643964 /* ENOJSTray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C033E1ECCDDFB00643964 /* ENOJSTray.m */; };
 		5A3C03421ECCDE0400643964 /* ENOJSNativeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C03411ECCDE0400643964 /* ENOJSNativeImage.m */; };
 		5A3C03451ECCDE1100643964 /* ENOJSIPCMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C03441ECCDE1100643964 /* ENOJSIPCMain.m */; };
@@ -27,6 +23,29 @@
 		5AA9DBED1EBA55B700EF7CC9 /* ENOJSProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBEC1EBA55B700EF7CC9 /* ENOJSProcess.m */; };
 		5AA9DBF01EBA564600EF7CC9 /* ENOJSConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBEF1EBA564600EF7CC9 /* ENOJSConsole.m */; };
 		5AA9DBF21EBA7C0700EF7CC9 /* ENOBrowserWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA9DBF11EBA7C0700EF7CC9 /* ENOBrowserWindowController.xib */; };
+		DE5C66B92041C91C009BD1D2 /* ENOJSPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBDD1EBA4F7B00EF7CC9 /* ENOJSPath.m */; };
+		DE5C66BA2041C91C009BD1D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBB51EB9F58B00EF7CC9 /* main.m */; };
+		DE5C66BB2041C91C009BD1D2 /* ENOJSBrowserWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBE61EBA502000EF7CC9 /* ENOJSBrowserWindow.m */; };
+		DE5C66BC2041C91C009BD1D2 /* ENOJSProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBEC1EBA55B700EF7CC9 /* ENOJSProcess.m */; };
+		DE5C66BD2041C91C009BD1D2 /* ENOJSApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBE91EBA502D00EF7CC9 /* ENOJSApp.m */; };
+		DE5C66BE2041C91C009BD1D2 /* ENOJSUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBE31EBA4F9B00EF7CC9 /* ENOJSUrl.m */; };
+		DE5C66BF2041C91C009BD1D2 /* ENOJSNativeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C03411ECCDE0400643964 /* ENOJSNativeImage.m */; };
+		DE5C66C02041C91C009BD1D2 /* ENOBrowserWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBC31EBA08BF00EF7CC9 /* ENOBrowserWindowController.m */; };
+		DE5C66C12041C91C009BD1D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBB21EB9F58B00EF7CC9 /* AppDelegate.m */; };
+		DE5C66C22041C91C009BD1D2 /* ENOJavaScriptApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBD31EBA0D1200EF7CC9 /* ENOJavaScriptApp.m */; };
+		DE5C66C32041C91C009BD1D2 /* ENOJSIPCMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C03441ECCDE1100643964 /* ENOJSIPCMain.m */; };
+		DE5C66C42041C91C009BD1D2 /* ENOJSTray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C033E1ECCDDFB00643964 /* ENOJSTray.m */; };
+		DE5C66C52041C91C009BD1D2 /* ENOJSConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DBEF1EBA564600EF7CC9 /* ENOJSConsole.m */; };
+		DE5C66C82041C91C009BD1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA9DBB71EB9F58B00EF7CC9 /* Assets.xcassets */; };
+		DE5C66C92041C91C009BD1D2 /* ENOBrowserWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA9DBF11EBA7C0700EF7CC9 /* ENOBrowserWindowController.xib */; };
+		DE5C66CA2041C91C009BD1D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA9DBB91EB9F58B00EF7CC9 /* MainMenu.xib */; };
+		DE5C66DD2041C98E009BD1D2 /* index.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A3C03311ECCDC9200643964 /* index.html */; };
+		DE5C66DE2041C98E009BD1D2 /* index.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A3C03321ECCDC9200643964 /* index.js */; };
+		DE5C66DF2041C98E009BD1D2 /* main.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A3C03331ECCDC9200643964 /* main.js */; };
+		DE5C66E02041C98E009BD1D2 /* package.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A3C03341ECCDC9200643964 /* package.json */; };
+		DE5C66E12041C99B009BD1D2 /* index.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AA9DBC81EBA0BDD00EF7CC9 /* index.html */; };
+		DE5C66E22041C99B009BD1D2 /* main.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AA9DBC91EBA0BDD00EF7CC9 /* main.js */; };
+		DE5C66E32041C99B009BD1D2 /* package.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AA9DBCA1EBA0BDD00EF7CC9 /* package.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,10 +55,22 @@
 			dstPath = app;
 			dstSubfolderSpec = 7;
 			files = (
-				5A3C03391ECCDC9E00643964 /* index.html in CopyFiles */,
-				5A3C033A1ECCDCA100643964 /* index.js in CopyFiles */,
-				5A3C033B1ECCDCA400643964 /* main.js in CopyFiles */,
-				5A3C033C1ECCDCA600643964 /* package.json in CopyFiles */,
+				DE5C66DD2041C98E009BD1D2 /* index.html in CopyFiles */,
+				DE5C66DE2041C98E009BD1D2 /* index.js in CopyFiles */,
+				DE5C66DF2041C98E009BD1D2 /* main.js in CopyFiles */,
+				DE5C66E02041C98E009BD1D2 /* package.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5C66CB2041C91C009BD1D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = app;
+			dstSubfolderSpec = 7;
+			files = (
+				DE5C66E12041C99B009BD1D2 /* index.html in CopyFiles */,
+				DE5C66E22041C99B009BD1D2 /* main.js in CopyFiles */,
+				DE5C66E32041C99B009BD1D2 /* package.json in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +114,19 @@
 		5AA9DBEE1EBA564600EF7CC9 /* ENOJSConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENOJSConsole.h; sourceTree = "<group>"; };
 		5AA9DBEF1EBA564600EF7CC9 /* ENOJSConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENOJSConsole.m; sourceTree = "<group>"; };
 		5AA9DBF11EBA7C0700EF7CC9 /* ENOBrowserWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ENOBrowserWindowController.xib; sourceTree = "<group>"; };
+		DE5C66D32041C91C009BD1D2 /* ElectrinoTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectrinoTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5C66D42041C91C009BD1D2 /* ElectrinoTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ElectrinoTest copy-Info.plist"; path = "/Users/awh/Development/Experiments2-1/electrino/Electrino/ElectrinoTest copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5AA9DBAB1EB9F58A00EF7CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5C66C62041C91C009BD1D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -114,6 +154,7 @@
 				5AA9DBC71EBA0BDD00EF7CC9 /* test-app */,
 				5AA9DBB01EB9F58A00EF7CC9 /* Electrino */,
 				5AA9DBAF1EB9F58A00EF7CC9 /* Products */,
+				DE5C66D42041C91C009BD1D2 /* ElectrinoTest copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				5AA9DBAE1EB9F58A00EF7CC9 /* ElectrinoTest.app */,
+				DE5C66D32041C91C009BD1D2 /* ElectrinoTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,6 +250,24 @@
 			productReference = 5AA9DBAE1EB9F58A00EF7CC9 /* ElectrinoTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DE5C66B72041C91C009BD1D2 /* ElectrinoTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5C66D02041C91C009BD1D2 /* Build configuration list for PBXNativeTarget "ElectrinoTestApp" */;
+			buildPhases = (
+				DE5C66B82041C91C009BD1D2 /* Sources */,
+				DE5C66C62041C91C009BD1D2 /* Frameworks */,
+				DE5C66C72041C91C009BD1D2 /* Resources */,
+				DE5C66CB2041C91C009BD1D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectrinoTestApp;
+			productName = Electrino;
+			productReference = DE5C66D32041C91C009BD1D2 /* ElectrinoTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,6 +297,7 @@
 			projectRoot = "";
 			targets = (
 				5AA9DBAD1EB9F58A00EF7CC9 /* ElectrinoTest */,
+				DE5C66B72041C91C009BD1D2 /* ElectrinoTestApp */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +310,16 @@
 				5AA9DBB81EB9F58B00EF7CC9 /* Assets.xcassets in Resources */,
 				5AA9DBF21EBA7C0700EF7CC9 /* ENOBrowserWindowController.xib in Resources */,
 				5AA9DBBB1EB9F58B00EF7CC9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5C66C72041C91C009BD1D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5C66C82041C91C009BD1D2 /* Assets.xcassets in Resources */,
+				DE5C66C92041C91C009BD1D2 /* ENOBrowserWindowController.xib in Resources */,
+				DE5C66CA2041C91C009BD1D2 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +343,26 @@
 				5A3C03451ECCDE1100643964 /* ENOJSIPCMain.m in Sources */,
 				5A3C033F1ECCDDFB00643964 /* ENOJSTray.m in Sources */,
 				5AA9DBF01EBA564600EF7CC9 /* ENOJSConsole.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5C66B82041C91C009BD1D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5C66B92041C91C009BD1D2 /* ENOJSPath.m in Sources */,
+				DE5C66BA2041C91C009BD1D2 /* main.m in Sources */,
+				DE5C66BB2041C91C009BD1D2 /* ENOJSBrowserWindow.m in Sources */,
+				DE5C66BC2041C91C009BD1D2 /* ENOJSProcess.m in Sources */,
+				DE5C66BD2041C91C009BD1D2 /* ENOJSApp.m in Sources */,
+				DE5C66BE2041C91C009BD1D2 /* ENOJSUrl.m in Sources */,
+				DE5C66BF2041C91C009BD1D2 /* ENOJSNativeImage.m in Sources */,
+				DE5C66C02041C91C009BD1D2 /* ENOBrowserWindowController.m in Sources */,
+				DE5C66C12041C91C009BD1D2 /* AppDelegate.m in Sources */,
+				DE5C66C22041C91C009BD1D2 /* ENOJavaScriptApp.m in Sources */,
+				DE5C66C32041C91C009BD1D2 /* ENOJSIPCMain.m in Sources */,
+				DE5C66C42041C91C009BD1D2 /* ENOJSTray.m in Sources */,
+				DE5C66C52041C91C009BD1D2 /* ENOJSConsole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +493,32 @@
 			};
 			name = Release;
 		};
+		DE5C66D12041C91C009BD1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ElectrinoTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.lacquer.ElectrinoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE5C66D22041C91C009BD1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ElectrinoTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.lacquer.ElectrinoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -419,6 +536,15 @@
 			buildConfigurations = (
 				5AA9DBC01EB9F58B00EF7CC9 /* Debug */,
 				5AA9DBC11EB9F58B00EF7CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5C66D02041C91C009BD1D2 /* Build configuration list for PBXNativeTarget "ElectrinoTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5C66D12041C91C009BD1D2 /* Debug */,
+				DE5C66D22041C91C009BD1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
