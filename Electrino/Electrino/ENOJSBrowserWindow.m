@@ -65,7 +65,21 @@
 
 - (void)loadURL:(NSString *)urlStr
 {
-    NSURL *url = [NSURL URLWithString:urlStr];
+
+    
+    // this is used to strip off the file:// prefix
+    // surely this should just work?
+    // but it doesn't
+    
+    NSURL* temporaryUrl = [NSURL URLWithString:urlStr];
+    
+    NSURL* url = [NSURL fileURLWithPath:[temporaryUrl path]];
+    
+    if (url == nil) {
+        
+        NSLog(@"url %@ can't be converted",urlStr);
+        return;
+    }
     
     [self.windowController loadURL:url];
 }
